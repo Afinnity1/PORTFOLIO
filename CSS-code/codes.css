@@ -56,3 +56,154 @@ hr {
 #contact {
     padding: 100px 187px;
 }
+
+/* Small screens (phones) */
+@media (max-width: 576px) {
+
+   #Intro-section{
+        padding: 0;
+   }
+
+   #Intro-section h1{
+        margin-top: 20px;
+   }
+
+   #About-me{
+        padding: 0;
+        margin-top: 80px;
+   }
+
+   #About-me p:nth-of-type(1){
+        font-size: 30px !important;
+   }
+
+   #About-me hr{
+    position: relative;
+    left: 200px !important;
+    width: 200px;
+}
+
+   #About-me p:nth-of-type(3) {
+     font-size: 16px !important;
+   }
+
+   #Skills{
+    padding: 0;
+    margin-top: 80px;
+   }
+
+   #Skills p:nth-of-type(1){
+    font-size: 30px !important;
+}
+
+   #Skills hr{
+    position: relative;
+    left: 200px !important;
+    width: 200px;
+   }
+
+   #projects{
+    padding: 0;
+    margin-top: 80px;
+   }
+
+   #projects hr{
+    position: relative;
+    left: 200px !important;
+    width: 200px;
+}
+
+#projects p:nth-of-type(1) span{
+    font-size: 30px !important;
+}
+
+.Myprojects{
+    flex-direction: column;
+    gap: 23px !important;
+    text-align: center;
+    align-items: center;
+}
+     
+    #contact{
+        padding: 0;
+        margin-top: 100px;
+    }
+
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 577px) and (max-width: 992px) {
+
+    navbar{
+        padding: 0;
+    }
+    
+    #Intro-section{
+        padding: 0;
+    }
+
+    #Intro-section h1{
+        margin-top: 20px;
+    }
+
+    #About-me{
+        padding: 0;
+        margin-top: 80px;
+    }
+
+    #About-me p:nth-of-type(1){
+        font-size: 30px !important;
+    }
+
+    #About-me hr{
+    position: relative;
+    left: 200px !important;
+    width: 600px;
+    }
+
+    #About-me p:nth-of-type(3) {
+    font-size: 16px !important;
+    }
+
+    #Skills{
+    padding: 0;
+    margin-top: 80px;
+    }
+
+    #Skills p:nth-of-type(1){
+    font-size: 30px !important;
+    }
+
+    #Skills hr{
+    position: relative;
+    left: 200px !important;
+    width: 600px;
+    }
+
+    #projects{
+    padding: 0;
+    margin-top: 80px;
+    }
+
+    #projects hr{
+    position: relative;
+    left: 200px !important;
+    width: 600px;
+    }
+
+    #projects p:nth-of-type(1) span{
+    font-size: 30px !important;
+    }
+
+    .Myprojects{
+    flex-direction: column;
+    gap: 23px !important;
+    text-align: center;
+    align-items: center;
+    }
+    
+    #contact{
+        padding: 0;
+        margin-top: 100px;
+    }
+}
