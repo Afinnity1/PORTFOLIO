@@ -1,0 +1,58 @@
+body {		
+    background-color: black;
+}
+
+.section-Edits {
+    color: white;
+}
+
+#Intro-section {
+    padding: 30px 187px;
+}
+
+.display-5 {
+    color: #0dcaf0;
+}
+
+.color-shade {
+    color: #0dcaf0;
+}
+
+#About-me {
+    padding: 100px 187px;
+}
+
+hr {
+    position: relative;
+    bottom: 37px;
+    left:228px;
+    width:90%;
+}
+
+#Skills {
+    padding: 100px 187px;
+}
+
+.skills-Edits {
+    font-size: 25px;
+    margin-top:20px;
+}
+
+#projects {
+    padding: 100px 187px;
+}
+
+.card .card-text{
+    color: black;
+}
+
+#projects .Myprojects{
+    position: relative;
+    top: 60px;
+    display: flex;
+    gap: 10px;
+}
+
+#contact {
+    padding: 100px 187px;
+}
