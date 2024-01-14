@@ -1,9 +1,13 @@
 body {		
-    background-color: black;
+    background-color: black !important;
 }
 
 .section-Edits {
     color: white;
+}
+
+.section-Edits button{
+    transition: 0.4s ease-in-out;
 }
 
 #Intro-section {
@@ -66,6 +70,10 @@ hr {
 
    #Intro-section h1{
         margin-top: 20px;
+   }
+
+   #Intro-section img{
+    display: none;
    }
 
    #About-me{
@@ -134,7 +142,7 @@ hr {
 /* Medium screens (tablets) */
 @media (min-width: 577px) and (max-width: 992px) {
 
-    navbar{
+    .navbar{
         padding: 0;
     }
     
